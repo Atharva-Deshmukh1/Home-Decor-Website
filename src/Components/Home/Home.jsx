@@ -3,44 +3,141 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
     return (
-        <div className="mx-auto w-full max-w-7xl">
-            <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16">
-                <div className="relative z-10 max-w-screen-xl px-4  pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8">
-                    <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto">
-                        <h2 className="text-4xl font-bold sm:text-5xl">
-                            Download Now
-                            <span className="hidden sm:block text-4xl">Lorem Ipsum</span>
-                        </h2>
+        <>
+            
+<div
+  className="bg-center bg-cover bg-no-repeat p-12 bg-black h-[400px]"
+  style={{ backgroundImage: `url('https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=1000')` }}>
+  
+        <div className="flex text-center gap-20">
+            <div>af</div>
+            <div>adf</div>
+            <div>adf</div>
+        </div>
 
-                        <Link
-                            className="inline-flex text-white items-center px-6 py-3 font-medium bg-orange-700 rounded-lg hover:opacity-75"
-                            to="/"
-                        >
-                            <svg
-                                fill="white"
-                                width="24"
-                                height="24"
-                                xmlns="http://www.w3.org/2000/svg"
-                                fillRule="evenodd"
-                                clipRule="evenodd"
-                            >
-                                <path d="M1.571 23.664l10.531-10.501 3.712 3.701-12.519 6.941c-.476.264-1.059.26-1.532-.011l-.192-.13zm9.469-11.56l-10.04 10.011v-20.022l10.04 10.011zm6.274-4.137l4.905 2.719c.482.268.781.77.781 1.314s-.299 1.046-.781 1.314l-5.039 2.793-4.015-4.003 4.149-4.137zm-15.854-7.534c.09-.087.191-.163.303-.227.473-.271 1.056-.275 1.532-.011l12.653 7.015-3.846 3.835-10.642-10.612z" />
-                            </svg>
-                            &nbsp; Download now
-                        </Link>
+</div>
+            <div className="bg-white dark:bg-gray-800 p-10 h-full py-6 sm:py-8 lg:py-12">
+                <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
+                    <div className="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12">
+                        <div className="flex items-center gap-12">
+                            <h2 className="text-2xl font-bold text-gray-800 lg:text-3xl dark:text-white">Gallery</h2>
+
+                            <p className="hidden max-w-screen-sm text-gray-500 dark:text-gray-300 md:block">
+                                This is a section of some simple filler text,
+                                also known as placeholder text. It shares some characteristics of a real written text.
+                            </p>
+                        </div>
+
+                        <a href="#"
+                            className="inline-block rounded-lg border bg-white dark:bg-gray-700 dark:border-none px-4 py-2 text-center text-sm font-semibold text-gray-500 dark:text-gray-200 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:px-8 md:py-3 md:text-base">
+                            More
+                        </a>
+                    </div>
+
+                    <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
+
+                        <a href="#"
+                            className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                            <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Minh Pham" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                            <div
+                                className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                            </div>
+
+                            <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">VR</span>
+                        </a>
+
+
+
+                        <a href="#"
+                            className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                            <img src="https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=1000" loading="lazy" alt="Photo by Magicle" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                            <div
+                                className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                            </div>
+
+                            <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Tech</span>
+                        </a>
+
+
+                        <a href="#"
+                            className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                            <img src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=1000" loading="lazy" alt="Photo by Martin Sanchez" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                            <div
+                                className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                            </div>
+
+                            <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Dev</span>
+                        </a>
+
+
+                        <a href="#"
+                            className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                            <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Lorenzo Herrera" className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                            <div
+                                className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                            </div>
+
+                            <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Retro</span>
+                        </a>
                     </div>
                 </div>
 
-                <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-96" src="https://i.ibb.co/5BCcDYB/Remote2.png" alt="image1" />
-                </div>
-            </aside>
+            </div>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-10 dark:bg-gray-800">
+                <div className="grid gap-4 ">
+                    <div className="overflow-hidden">
+                        <img src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" className="h-auto max-w-full rounded-lg hover:scale-110 cursor-pointer transition duration-200 " alt="" />
 
-            <div className="grid  place-items-center sm:mt-20">
-                <img className="sm:w-96 w-48" src="https://i.ibb.co/2M7rtLk/Remote1.png" alt="image2" />
+                    </div>
+                    <div className="overflow-hidden">
+                        <img className="h-auto max-w-full rounded-lg hover:scale-110 cursor-pointer transition duration-200" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="" />
+                    </div>
+                    <div className="overflow-hidden">
+                        <img className="h-auto max-w-full rounded-lg hover:scale-110 cursor-pointer transition duration-200" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt="" />
+                    </div>
+                </div>
+                <div className="grid gap-4 overflow-hidden">
+                    <div className="overflow-hidden">
+                        <img className="h-auto max-w-full rounded-lg hover:scale-110 cursor-pointer transition duration-200" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt="" />
+                    </div>
+                    <div className="overflow-hidden">
+                        <img className="h-auto max-w-full rounded-lg hover:scale-110 cursor-pointer transition duration-200" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt="" />
+                    </div>
+                    <div className="overflow-hidden">
+                        <img className="h-auto max-w-full rounded-lg hover:scale-110 cursor-pointer transition duration-200" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" alt="" />
+                    </div>
+                </div>
+                <div className="grid gap-4 overflow-hidden">
+                    <div className="overflow-hidden">
+                        <img className="h-auto max-w-full rounded-lg hover:scale-110 cursor-pointer transition duration-200" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg" alt="" />
+                    </div>
+                    <div className="overflow-hidden">
+                        <img className="h-auto max-w-full rounded-lg hover:scale-110 cursor-pointer transition duration-200" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" alt="" />
+                    </div>
+                    <div className="overflow-hidden">
+                        <img className="h-auto max-w-full rounded-lg hover:scale-110 cursor-pointer transition duration-200" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt="" />
+                    </div>
+                </div>
+                <div className="grid gap-4 overflow-hidden">
+                    <div className="overflow-hidden">
+                        <img className="h-auto max-w-full rounded-lg hover:scale-110 cursor-pointer transition duration-200" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg" alt="" />
+                    </div>
+                    <div className="overflow-hidden">
+                        <img className="h-auto max-w-full rounded-lg hover:scale-110 cursor-pointer transition duration-200" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="" />
+                    </div>
+                    <div className="overflow-hidden">
+                        <img className="h-auto max-w-full rounded-lg hover:scale-110 cursor-pointer transition duration-200" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="" />
+                    </div>
+                </div>
             </div>
 
-            <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Lorem Ipsum Yojo</h1>
-        </div>
+
+
+
+        </>
     );
 }
