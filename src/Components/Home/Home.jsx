@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import LivingRoom from "../LivngRoom/LivingRoom";
 import InteriorIdeas from "../InteriorIdeas/InteriorIdeas";
+import Products from "../Products/Products";
 
 export default function Home() {
     return (
@@ -32,6 +33,17 @@ export default function Home() {
 
 
             <InteriorIdeas />
+            <div>
+            <h1 className="text-center pt-10 text-4xl">Featured Products</h1>
+            <div className="flex gap-10 justify-center content-center flex-wrap p-10">
+                
+                <Products itemName="lamp" img={<img className='rounded-full' src="https://kotart.in/cdn/shop/products/Kotart-Modern-Abstract-Art-Paintings-for-Living-Room-Bedroom-Wall-Decor-Paintings-for-Home-Decor-2.jpg?v=1697554365&width=1946" alt="" />} />
+
+                <Products itemName="candel" img={<img className='rounded-full' src="https://kotart.in/cdn/shop/products/Kotart-Modern-Abstract-Art-Paintings-for-Living-Room-Bedroom-Wall-Decor-Paintings-for-Home-Decor-2.jpg?v=1697554365&width=1946" alt="" />} />
+
+                <Products itemName="frames" img={<img className='rounded-full' src="https://kotart.in/cdn/shop/products/Kotart-Modern-Abstract-Art-Paintings-for-Living-Room-Bedroom-Wall-Decor-Paintings-for-Home-Decor-2.jpg?v=1697554365&width=1946" alt="" />} />
+            </div>
+            </div>
 
 
 

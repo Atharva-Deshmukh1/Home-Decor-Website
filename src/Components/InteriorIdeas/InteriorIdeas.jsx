@@ -3,6 +3,13 @@ import React from 'react'
 const InteriorIdeas = () => {
   return (
     <>
+    <div className="flex items-center gap-12 dark:bg-gray-800 p-10">
+                            <h2 className="text-2xl font-bold text-gray-800 lg:text-3xl dark:text-white">Gallery</h2>
+
+                            <p className="hidden ml-4 max-w-screen-sm text-gray-500 dark:text-gray-300 md:block">
+                                These are some of the modern ideas/designs for your rooms.
+                            </p>
+                        </div>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-10 dark:bg-gray-800">
                 <div className="grid gap-4 ">
                     <div className="overflow-hidden">
