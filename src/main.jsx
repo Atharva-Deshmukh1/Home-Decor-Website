@@ -10,15 +10,21 @@ import AboutUS from './Components/AboutUs/AboutUS.jsx'
 import Contact from './Components/Contact/Contact.jsx'
 import Products from './Components/Products/Products.jsx'
 import Lamps from './Components/Lamps/Lamps.jsx'
+import ProductPage from './Components/ProductPage/ProductPage.jsx'
+import GreenPots from './Components/GreenPots/GreenPots.jsx'
+import ModernArt from './Components/ModernArt/ModernArt.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout/>}>
       <Route path='' element={<Home />} />
       <Route path='about' element={<AboutUS />} />
+      <Route path='productPage' element={<ProductPage />} />
       <Route path='contact' element={<Contact />} />
       <Route path='products' element={<Products />} />
       <Route path='Lamps' element={<Lamps />} />
+      <Route path='GreenPots' element={<GreenPots />} />
+      <Route path='ModernArt' element={<ModernArt />} />
     </Route>
   )
 )
