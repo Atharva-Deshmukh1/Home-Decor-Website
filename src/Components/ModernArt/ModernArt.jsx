@@ -1,11 +1,21 @@
 import React from 'react'
-import Lamps from '../Lamps/Lamps'
+import Item from '../Item/item'
+import product_data_ModernArt from '../Assets/ModernArtData';
 
-export default function ModernArt() {
+const ModernArt = () => {
   return (
+    <>
     <div>
-        <h1>art</h1>
-      <Lamps />
+      <h1 className=''>ModernArt</h1>
     </div>
+    <div className='flex flex-wrap justify-center gap-14 mt-10'>
+      {product_data_ModernArt.map((item,i)=>{
+        return <Item key={i} id={item.id} name={item.Title} num={item.Price} url={item.url} />
+      })}
+      
+    </div>
+    </>
   )
 }
+
+export default ModernArt
