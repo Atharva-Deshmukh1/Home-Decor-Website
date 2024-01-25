@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Item(props) {
   return (
@@ -6,9 +7,9 @@ export default function Item(props) {
 
       <div>
         <div className="w-64 h-[400px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 " >
-          <a href="#">
+          <Link to={`/ProductPage/${props.id}`}>
             <img className="rounded-t-lg h-[70%] w-full object-cover" src={props.url} alt="" />
-          </a>
+            </Link>
           <div className="p-5">
             <a href="#">
               <h5 className="mb-2  font-bold tracking-tight text-gray-900 dark:text-white text-wrap">{props.name}</h5>
