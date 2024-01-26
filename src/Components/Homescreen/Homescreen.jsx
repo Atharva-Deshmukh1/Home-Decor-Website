@@ -6,9 +6,9 @@ const Homescreen = () => {
     <div>
       {
         All_product_data.map((product) => (
-          
-          <ProductDisplay product={product} />
-          
+          <div className='flex'>
+          <ProductDisplay className='flex' product={product} />
+          </div>
         ))
       }
     </div>

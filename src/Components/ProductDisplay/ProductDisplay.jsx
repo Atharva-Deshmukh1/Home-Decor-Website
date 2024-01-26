@@ -8,14 +8,18 @@ import React from 'react'
 //   )
 // }
 const ProductDisplay = ({product}) => {
-  const {ProductPage}=props
+  
 return (
   <>
-    <card>
-      <a href={`/product/${product.id}`}>
-      <img src={product.url} alt="" />
+
+<div className="dark:bg-gray-800">
+<div className=' gap-14 mt-10 h-72 w-60'>
+      
+      <a href={`/products/${product.id}`}>
+      <img className="rounded-t-lg h-[70%] w-full object-cover" src={product.url} alt="" />
       </a>
-    </card>
+      </div>
+      </div>
   </>
 )
 }
