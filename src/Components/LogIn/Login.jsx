@@ -35,7 +35,16 @@ const Login = () => {
             <label htmlFor="email" className="block text-sm font-medium text-gray-700">
               Email
             </label>
-            
+            <input
+              id="email"
+              name="email"
+              type="email"
+              autoComplete="email"
+              required
+              value={formData.email}
+              onChange={handleChange}
+              className="mt-1 p-2 w-full border rounded-md"
+            />
           </div>
           <div>
             <label htmlFor="name" className="block text-sm font-medium text-gray-700">
