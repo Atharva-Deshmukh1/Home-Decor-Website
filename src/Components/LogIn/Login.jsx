@@ -1,5 +1,3 @@
-// src/components/Login.js
-
 import React, { useState } from 'react';
 
 const Login = () => {
@@ -18,7 +16,6 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add your login logic here, e.g., API calls, authentication, etc.
     console.log('Form submitted:', formData);
   };
 
