@@ -13,7 +13,7 @@ import Lamps from './Components/Lamps/Lamps.jsx'
 import ProductPage from './Components/ProductPage/ProductPage.jsx'
 import GreenPots from './Components/GreenPots/GreenPots.jsx'
 import ModernArt from './Components/ModernArt/ModernArt.jsx'
-
+import Login from './Components/LogIn/Login.jsx'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout/>}>
@@ -25,6 +25,7 @@ const router = createBrowserRouter(
       <Route path='Lamps' element={<Lamps />} />
       <Route path='GreenPots' element={<GreenPots />} />
       <Route path='ModernArt' element={<ModernArt />} />
+      <Route path='login' element={<Login />} />
     </Route>
   )
 )
