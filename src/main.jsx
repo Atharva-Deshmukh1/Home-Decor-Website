@@ -15,6 +15,7 @@ import GreenPots from './Components/GreenPots/GreenPots.jsx'
 import ModernArt from './Components/ModernArt/ModernArt.jsx'
 import Login from './Components/LogIn/Login.jsx'
 import Product from './Components/Product/Product.jsx'
+import Cart from './Components/Cart/Cart.jsx'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout/>}>
@@ -30,6 +31,7 @@ const router = createBrowserRouter(
       <Route path='/product' element={<Product />} >
         <Route path=':productId' element={<Product />} />
       </Route>
+      <Route path='cart' element={<Cart />} />
     </Route>
   )
 )

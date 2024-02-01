@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { ShopContext } from '../ShopContext/ShopContext'
 import { useParams } from 'react-router-dom'
+import ProductDetails from '../ProductDetails/ProductDetails'
 
 const Product = () => {
     const { All_product_data } = useContext(ShopContext)
@@ -9,7 +10,7 @@ const Product = () => {
 
     return (
         <div>
-
+            <ProductDetails product={product} />
         </div>
     )
 }
