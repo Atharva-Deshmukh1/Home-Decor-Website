@@ -20,7 +20,7 @@ export default function Footer() {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Resources</h2>
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
-                                    <Link to="/home" className={({isActive}) =>
+                                    <Link to="" className={({isActive}) =>
                                 ` ${isActive ? "text-orange-700":"text-gray-700" }`}>
                                         Home
                                     </Link>
@@ -53,9 +53,9 @@ export default function Footer() {
                                     </a>
                                 </li>
                                 <li>
-                                    <Link to="/" className="hover:underline">
-                                        Discord
-                                    </Link>
+                                    <a href="https://atharva-deshmukh1.github.io/Mensware-Website/" className="hover:underline">
+                                        Menswear Website
+                                    </a>
                                 </li>
                             </ul>
                         </div>

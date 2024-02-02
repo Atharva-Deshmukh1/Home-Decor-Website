@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { ShopContext } from '../ShopContext/ShopContext';
 
 const ProductDetails = (props) => {
     const {product} = props;
+const {addToCart} = useContext(ShopContext)
+
     return (
         <div className="container mx-auto mt-8">
           <div className="flex">
@@ -16,7 +19,7 @@ const ProductDetails = (props) => {
               <h2 className="text-3xl font-semibold mb-4">{product.Title}</h2>
               {/* <p className="text-gray-700 mb-4">{product.description}</p> */}
               <p className="text-xl text-primary font-bold mb-4">${product.price}</p>
-              <button className="bg-primary text-white px-6 py-2 rounded-lg">
+              <button onClick={()=>{addToCart(product.id)}} className="bg-slate-900 text-white px-6 py-2 rounded-lg">
                 Add to Cart
               </button>
             </div>

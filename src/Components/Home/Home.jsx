@@ -11,11 +11,12 @@ export default function Home() {
             <div
                 className="bg-center bg-cover bg-no-repeat p-12 bg-black h-[500px] brightness-[1]"
                 style={{ backgroundImage: `url('https://www.build-review.com/wp-content/uploads/2022/12/AdobeStock_521077579.jpg')` }}>
-                <div class="bg-gradient-to-t from-transparent via-white to-white p-6 ">
-                    <h1 class="text-white font-bold text-4xl lg:text-5xl xl:text-6xl text-transparent">
-                    Elegance-Hub
-                    </h1>
-                </div>
+                
+                <div class="h-32 w-64 flex items-center justify-center text-4xl font-bold">
+  <span class="bg-gradient-to-t from-white  to-transparent text-transparent bg-clip-text">
+  Elegance-Hub
+  </span>
+</div>
 
             </div>
 
