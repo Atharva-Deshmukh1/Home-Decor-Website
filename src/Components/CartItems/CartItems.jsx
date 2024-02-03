@@ -10,7 +10,14 @@ const CartItems = () => {
         if(cartItems[e.id]>0)
         {
             return <>
-            <img src={e.url} alt="" />
+            <div className='h-52 flex justify-around items-center bg-slate-700'>
+            <img className='h-32 w-32 object-fill' src={e.url} alt="" />
+            <div className='border-2 border-sky-500 w-1/2'>
+            <p>{e.Title}</p>
+            <p>{e.Price}</p>
+            </div>
+            <p>xyz</p>
+            </div>
             </>
         }
       })}

@@ -7,21 +7,20 @@ import Products from "../Products/Products";
 export default function Home() {
     return (
         <div className="dark:bg-gray-800">
-
             <div
-                className="bg-center bg-cover bg-no-repeat p-12 bg-black h-[500px] brightness-[1]"
+                className="bg-center bg-cover bg-no-repeat p-12 h-[500px] brightness-[0.6] blur-[2px]"
                 style={{ backgroundImage: `url('https://www.build-review.com/wp-content/uploads/2022/12/AdobeStock_521077579.jpg')` }}>
-                
-                <div class="h-32 w-64 flex items-center justify-center text-4xl font-bold">
-  <span class="bg-gradient-to-t from-white  to-transparent text-transparent bg-clip-text">
-  Elegance-Hub
-  </span>
-</div>
+
 
             </div>
+                <div class=" w-full flex items-center justify-center text-4xl font-bold">
+                    <span class="text-9xl relative top-[-350px] bg-gradient-to-t from-white via-white to-transparent text-transparent bg-clip-text blur-[0px]">
+                        EleGance-Hub
+                    </span>
+                </div>
 
             <div>
-                <h1 className="text-center pt-10 text-4xl text-white">Featured Products</h1>
+                <h1 className="text-center pt-10 mt-[-100px] text-4xl text-white">Featured Products</h1>
                 <div className="text-white flex gap-28 justify-center content-center flex-wrap p-10">
 
                     <Products itemName="Lamp" img={<img className='rounded-full hover:border-double hover:border-4 hover:border-slate-100' src="https://assets.mydeal.com.au/48285/bedside-lamp-3-way-dimmable-spiral-led-table-lamp-nightstand-desk-reading-light-10472877_00.jpg?v=638299888338386473&imgclass=dealpageimage" alt="" />} link="/Lamps" />

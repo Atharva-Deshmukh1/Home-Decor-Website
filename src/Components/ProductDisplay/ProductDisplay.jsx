@@ -1,23 +1,32 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const ProductDisplay = ({ product }) => {
 
   return (
-    <div className='flex'>
-      <a href={`/product/${product.id}`}>
-      <div className="dark:bg-gray-800  p-20">
-        <div className=' gap-14 mt-10 h-72 w-60'>
+
+    <div className='h-[300px] w-56 flex justify-center border-2 border-sky-800 dark:bg-gray-800 rounded-lg'>
+      <Link to={`/product/${product.id}`}>
+        <div className="dark:bg-gray-800 border-2 border-sky-500 h-[300px] w-56 rounded-lg ">
+          
+
+            <img className=" h-[70%] w-full object-fill rounded-lg" src={product.url} alt="" />
+            <p>{product.Title}</p>
+            <p>{product.Price}</p>
 
 
-          <img className="rounded-t-lg h-[70%] w-full object-cover" src={product.url} alt="" />
-
+          
 
         </div>
+      </Link>
+    </div >
 
-      </div>
-    </a>
-  </div >
-)
+
+
+
+
+
+  )
 }
 
 export default ProductDisplay
