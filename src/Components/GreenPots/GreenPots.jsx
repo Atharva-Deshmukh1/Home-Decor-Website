@@ -1,5 +1,5 @@
 import React from 'react'
-import Item from '../Item/item'
+import Item from '../Item/Item'
 import product_data_GreenPots from '../Assets/GreenPotData';
 
 export default function GreenPots() {
