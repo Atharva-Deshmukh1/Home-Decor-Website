@@ -24,7 +24,7 @@ export default function Home() {
                         </div> */}
                 </div>
 
-            <div>
+            {/* <div>
                 <h1 className="text-center pt-10 mt-[-100px] text-4xl text-white">Featured Products</h1>
                 <div className="text-white flex gap-28 justify-center content-center flex-wrap p-10">
 
@@ -34,7 +34,7 @@ export default function Home() {
 
                     <Products itemName="Modern Art" img={<img className='rounded-full hover:border-double hover:border-4 hover:border-slate-100' src="https://kotart.in/cdn/shop/files/PaintingBBR151_1.jpg?v=1697558736" alt="" />} link="/ModernArt" />
                 </div>
-            </div>
+            </div> */}
 
             <LivingRoom />
 

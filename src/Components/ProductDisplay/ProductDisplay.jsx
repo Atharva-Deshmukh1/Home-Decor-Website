@@ -5,14 +5,16 @@ const ProductDisplay = ({ product }) => {
 
   return (
 
-    <div className='h-[300px] w-56 flex justify-center border-2 border-sky-800 dark:bg-gray-800 rounded-lg'>
+    <div className='h-[300px] w-56 flex justify-center  bg-amber-50 rounded-lg'>
       <Link to={`/product/${product.id}`}>
-        <div className="dark:bg-gray-800 border-2 border-sky-500 h-[300px] w-56 rounded-lg ">
+        <div className="bg-amber-50  h-[300px] w-56 p-2 hover:border-2 hover:border-black overflow-hidden  rounded-lg ">
           
 
-            <img className=" h-[70%] w-full object-fill rounded-lg" src={product.url} alt="" />
-            <p>{product.Title}</p>
-            <p>{product.Price}</p>
+            <img className=" h-[70%] w-full object-fill " src={product.url} alt="" />
+            <div className=''>
+            <p className='font-semibold'>{product.Title}</p>
+            <p className='font-normal'>M.R.P: ₹{product.Price}</p>
+            </div>
 
 
           

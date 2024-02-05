@@ -3,7 +3,7 @@ import All_product_data from '../Assets/AllProduct'
 import ProductDisplay from '../ProductDisplay/ProductDisplay'
 const Homescreen = () => {
   return (
-    <div className='flex flex-wrap gap-16 justify-center p-10 bg-slate-700'>
+    <div className='flex flex-wrap gap-16 justify-center p-10 bg-amber-50'>
       {
         All_product_data.map((product) => (
           <div>

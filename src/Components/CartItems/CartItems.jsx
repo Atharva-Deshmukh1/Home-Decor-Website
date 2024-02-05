@@ -9,13 +9,13 @@ const CartItems = () => {
       {All_product_data.map((e) => {
         if (cartItems[e.id] > 0) {
           return <>
-            <div className='h-52 flex justify-around items-center bg-slate-700'>
+            <div className='h-52 flex justify-around items-center bg-amber-50'>
               <img className='h-32 w-32 object-fill' src={e.url} alt="" />
-              <div className='border-2 border-sky-500 w-1/2'>
+              <div className=' w-1/2'>
                 <p>{e.Title}</p>
-                <p>{e.Price}</p>
+                <p>₹ {e.Price}</p>
               </div>
-              <p>xyz</p>
+              <p>1</p>
             </div>
 
           </>
