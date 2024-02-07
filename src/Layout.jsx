@@ -7,11 +7,11 @@ import ShopContextProvider from './Components/ShopContext/ShopContext'
 const Layout = () => {
   return (
     <>
-    {/* <ShopContextProvider> */}
+    <ShopContextProvider>
       <Header />
       <Outlet />
       <Footer />
-      {/* </ShopContextProvider> */}
+      </ShopContextProvider>
     </>
   )
 }
