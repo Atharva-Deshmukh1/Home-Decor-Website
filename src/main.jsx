@@ -21,7 +21,8 @@ import ShopContextProvider from './Components/ShopContext/ShopContext.jsx'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout/>}>
-      <Route path='' element={<Home />} />
+      
+      <Route path='/Home-Decore-Website' element={<Home />} />
       <Route path='about' element={<AboutUS />} />
       <Route path='productPage' element={<ProductPage />} />
       <Route path='contact' element={<Contact />} />
