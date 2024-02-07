@@ -17,6 +17,7 @@ import Login from './Components/LogIn/Login.jsx'
 import Product from './Components/Product/Product.jsx'
 import Cart from './Components/Cart/Cart.jsx'
 import CartItems from './Components/CartItems/CartItems.jsx'
+import ShopContextProvider from './Components/ShopContext/ShopContext.jsx'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout/>}>
@@ -40,6 +41,9 @@ const router = createBrowserRouter(
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <ShopContextProvider>
+    <App/>
+    </ShopContextProvider>
     <RouterProvider router={router} />
   </React.StrictMode>,
 )
