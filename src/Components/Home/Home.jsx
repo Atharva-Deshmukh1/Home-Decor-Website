@@ -14,15 +14,13 @@ export default function Home() {
 
             </div>
                 <div class=" w-full flex items-center justify-center text-4xl font-bold">
-                    <span class="text-9xl relative top-[-350px] bg-gradient-to-t from-white via-white to-transparent text-transparent bg-clip-text blur-[0px]">
+                    <span class=" relative top-[-350px] bg-gradient-to-t from-white via-white to-transparent text-transparent bg-clip-text blur-[0px] text-5xl sm:text-7xl md:text-8xl lg:text-9xl">
                         EleGance-Hub
                     </span>
-                        {/* <div className="flex">
-                        <Box />
-                        <Box />
-                        <Box />
-                        </div> */}
+                        
                 </div>
+                
+
 
             {/* <div>
                 <h1 className="text-center pt-10 mt-[-100px] text-4xl text-white">Featured Products</h1>

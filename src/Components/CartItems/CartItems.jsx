@@ -6,6 +6,9 @@ const CartItems = () => {
   const { All_product_data, cartItems, addToCart, removeToCart, getTotalCartAmount } = useContext(ShopContext)
   return (
     <>
+    <div>
+      {["product",""]}
+    </div>
       {All_product_data.map((e) => {
         if (cartItems[e.id] > 0) {
           return <>
@@ -13,8 +16,9 @@ const CartItems = () => {
               <img className='h-32 w-32 object-fill' src={e.url} alt="" />
               <div className=' w-1/2'>
                 <p>{e.Title}</p>
-                <p>₹ {e.Price}</p>
+                
               </div>
+              <p>₹ {e.Price}</p>
               <p>1</p>
             </div>
 

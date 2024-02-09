@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
-                    <Link to="/" className="flex items-center">
+                    <Link to="/Home-Decor-Website" className="flex items-center">
                         <h1 className="mr-3 h-12 text-3xl text-sky-900 font-bold flex items-center">
                             EleGance-Hub
                             </h1>
@@ -18,7 +18,7 @@ export default function Footer() {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Resources</h2>
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
-                                    <Link to="" className={({isActive}) =>
+                                    <Link  to="/Home-Decor-Website"  className={({isActive}) =>
                                 ` ${isActive ? "text-orange-700":"text-gray-700" }`}>
                                         Home
                                     </Link>
