@@ -12,7 +12,7 @@ const ProductDetails = (props) => {
     };
 
     return (
-        <div className="container mx-auto p-8 bg-amber-50">
+        <div className=" w-full p-10 bg-amber-50">
             <div className="flex flex-col md:flex-row">
                 <div className="w-full md:w-1/2">
                     <img

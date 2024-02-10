@@ -10,7 +10,7 @@ const InteriorIdeas = () => {
                                 These are some of the modern ideas/designs for your rooms.
                             </p>
                         </div>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-10 dark:bg-gray-800">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-10 dark:bg-gray-800 mt-[-50px]">
                 <div className="grid gap-4 ">
                     <div className="overflow-hidden">
                         <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2q8rNsv6OiT3VBE34WTc6yXFkk625GBF4tg&usqp=CAU">
