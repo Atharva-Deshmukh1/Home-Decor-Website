@@ -3,7 +3,7 @@ import React from 'react'
 const InteriorIdeas = () => {
   return (
     <>
-    <div className="flex items-center gap-12 dark:bg-gray-800 p-10">
+    <div className="flex items-center gap-12 dark:bg-gray-800 p-2 md:p-10">
                             <h2 className="text-2xl font-bold text-gray-800 lg:text-3xl dark:text-white">Gallery</h2>
 
                             <p className="hidden ml-4 max-w-screen-sm text-gray-500 dark:text-gray-300 md:block">
