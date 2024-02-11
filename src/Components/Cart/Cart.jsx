@@ -11,21 +11,21 @@ const Cart = () => {
       
         <CartItems />
         <div className='bg-amber-50'>
-        <div className='w-[450px] p-6 ml-8 bg-amber-50'>
+        <div className='w-full md:w-[450px] p-6 md:ml-8 bg-amber-50'>
               <div>
             <h1 className='text-5xl font-bold mb-6'>Cart Total</h1>
             <hr />
-            <div className='flex w-[400px] p-1 justify-between'>
+            <div className='flex w-full sm:w-[400px] p-1 justify-between'>
               <p className='m-l-0 '>Subtotal:</p>
               <p className=''>₹ {getTotalCartAmount()}</p>
             </div>
             <hr />
-            <div className='flex w-[400px] p-1 justify-between'>
+            <div className='flex w-full sm:w-[400px] p-1 justify-between'>
               <p>Shipping Fees:</p>
               <p className='ml-4'>Free</p>
             </div>
             <hr />
-            <div className='font-bold flex w-[400px] p-1 justify-between'>
+            <div className='font-bold flex w-full sm:w-[400px] p-1 justify-between'>
               <h3>Total:</h3>
               <h3>₹ {getTotalCartAmount()}</h3>
             </div>

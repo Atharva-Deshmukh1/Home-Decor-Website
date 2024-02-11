@@ -23,10 +23,11 @@ const ProductDetails = (props) => {
                 </div>
                 <div className="w-full md:w-1/2 mt-8 md:mt-0 md:ml-8">
                     <h2 className="text-3xl font-semibold mb-4">{product.Title}</h2>
+                    <p>{product.Description}</p>
                     <p className="text-xl text-primary font-bold mb-4">₹ {product.Price}</p>
                     <button
                         onClick={handleAddToCart}
-                        className={`px-6 py-2 rounded-lg hover:bg-slate-600 ${addedToCart ? 'bg-green-600 text-black font-bold' : 'bg-slate-900 text-white'}`}
+                        className={`px-6 py-2 rounded-lg md:hover:bg-slate-600 ${addedToCart ? 'bg-green-600 text-black font-bold' : 'bg-slate-900 text-white'}`}
                         disabled={addedToCart}
                     >
                         {addedToCart ? 'Added to Cart' : 'Add to Cart'}
