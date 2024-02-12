@@ -24,6 +24,12 @@ export default function Footer() {
                                     </Link>
                                 </li>
                                 <li>
+                                    <Link to="/productPage" className={({isActive}) =>
+                                ` ${isActive ? "text-orange-700":"text-gray-700" }`}>
+                                        Products
+                                    </Link>
+                                </li>
+                                <li>
                                     <Link to="/about" className={({isActive}) =>
                                 ` ${isActive ? "text-orange-700":"text-gray-700" }`}>
                                         About
@@ -35,6 +41,7 @@ export default function Footer() {
                                         Contact
                                     </Link>
                                 </li>
+                               
                             </ul>
                         </div>
                         <div>

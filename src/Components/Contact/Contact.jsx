@@ -4,7 +4,7 @@ export default function Contact() {
     return (
         <div className="relative mt-4 flex items-top justify-center min-h-[700px] bg-amber-50 sm:items-center sm:pt-0">
             <div className="max-w-6xl mx-auto sm:px-6 lg:px-8  ">
-                <div className="mt-[-100px] overflow-hidden ">
+                <div className="sm:mt-[-100px] overflow-hidden ">
                     <div className="grid grid-cols-1 md:grid-cols-2 border-2 border-black p-2 rounded-lg">
                         <div className="p-6 mr-2 bg-amber-50 sm:rounded-lg">
                             <h1 className="text-3xl sm:text-4xl text-gray-800 font-extrabold tracking-tight">
