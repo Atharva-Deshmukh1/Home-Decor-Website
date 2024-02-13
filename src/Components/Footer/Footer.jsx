@@ -17,7 +17,7 @@ export default function Footer() {
                         <div>
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Resources</h2>
                             <ul className="text-gray-500 font-medium">
-                                <li className="mb-4">
+                                <li>
                                     <Link  to="/Home-Decor-Website"  className={({isActive}) =>
                                 ` ${isActive ? "text-orange-700":"text-gray-700" }`}>
                                         Home
@@ -45,9 +45,9 @@ export default function Footer() {
                             </ul>
                         </div>
                         <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Follow us</h2>
+                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Visit us</h2>
                             <ul className="text-gray-500 font-medium">
-                                <li className="mb-4">
+                                <li >
                                     <a
                                         href="https://github.com/Atharva-Deshmukh1"
                                         className="hover:underline"
@@ -57,13 +57,21 @@ export default function Footer() {
                                         Github
                                     </a>
                                 </li>
+                                
+  
                                 <li>
-                                    <a href="https://atharva-deshmukh1.github.io/Mensware-Website/" className="hover:underline">
-                                        Menswear Website
+                                    <a href="https://atharva-deshmukh1.github.io/Portfolio-Website/" className="hover:underline">
+                                    Portfolio
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/atharva-deshmukh-0899b8275/" className="hover:underline">
+                                    Linkedin
                                     </a>
                                 </li>
                             </ul>
                         </div>
+                        
                         <div>
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Legal</h2>
                             <ul className="text-gray-500 font-medium">
