@@ -79,7 +79,7 @@ let All_product_data = [
     id:10,
     Title:"Blooming Floret Artificial Areca Palm Plant.",
     Price:999,
-    url:"https://m.media-amazon.com/images/I/71E1PWgXxwL._SX425_.jpg",
+    url:"https://m.media-amazon.com/images/I/51-+WgOZwaL._AC_UL480_FMwebp_QL65_.jpg",
     Category:"plants",
     Description:``
 },
@@ -259,30 +259,74 @@ id:23,
           },
           {
             id:29,
-              Title:"Hariom Handicraft KendalWoodâ„¢ Furniture Solid Sheesham Wood Sofa Set.",
-              Price:12999,
-              url:"https://m.media-amazon.com/images/I/71BtgMTf6fL._SX425_.jpg",
+              Title:"DECOR STUDIOS Sofa Cum Bed.",
+              Price:6999,
+              url:"https://m.media-amazon.com/images/I/71zZJggi9QL._AC_UL480_FMwebp_QL65_.jpg",
               Category:"sofa",
-              Description:` KendalWood - A Brand of Hariom Handicraft. Own and Original Manufacture - Pure Sheesham Wood Product.
-              💺Product Dimensions:3 Seater Sofa Set : H 32 x W 70 x D 28.5 (all dimensions in inches) 3 Seater sofa Weight:- 36 kg.
-              💺Meatrial: Sheesham Wood . | Finish Color - Natural Teak with Cream cushion
-              💺 MULTI PURPOSE USE SOFA - This is Sofa set for Living room ,so you can use as Living room sofa , also use as sofa set for hall , also best option sofa set for office . This is Confirmable sofa set in this living room furniture segment . This is set of 3 Seater sofa , so this is best in 3 Seater sofa .`
+              Description:`Sofa cum bed increases the look of your living space and a comfort option that can be modified as per your need.
+              A super soft foam that provides you the same comfort in all its positions.
+              Upholstery Material: Soft and durable
+              This folding sofa bed is the best for sleeping and exercising. High density foam is for maximum support and comfort. Used as a mattress or as a sofa as per your need.`
             },
             {
               id:30,
-                Title:"Perpetual Paintings for Wall Decoration.",
-                Price:499,
-                url:"https://m.media-amazon.com/images/I/71BtgMTf6fL._SX425_.jpg",
+                Title:"Melodious Mete Pastel Coloured Sofa Set.",
+                Price:69999,
+                url:"https://m.media-amazon.com/images/I/512TMbb5-kL._SX425_.jpg",
                 Category:"sofa",
-                Description:``
+                Description:`Woodshala primarily utilizes authentic wood, reserving engineered variants only for specific applications like behind mirrors.
+                In today's competitive market, finding genuine wood furniture at a good price is rare; trust Woodshala for quality craftsmanship and materials.
+                85% of Woodshala's stock is unpolished for free customization, ensuring product freshness and top-notch craftsmanship`
               },
               {
                 id:31,
-                  Title:"Perpetual Paintings for Wall Decoration.",
-                  Price:499,
-                  url:"https://m.media-amazon.com/images/I/71BtgMTf6fL._SX425_.jpg",
+                  Title:"NAAZ HANDICRAFT 5 Seater Maharaja Sofa Set for Living Room.",
+                  Price:41499,
+                  url:"https://m.media-amazon.com/images/I/71jGrgXVaoL._SX425_.jpg",
                   Category:"sofa",
-                  Description:``
+                  Description:`Our fully upholstered chesterfield sofa will be a luxurious addition to your interior. Material: wooden frame + Velvet Cover, Dimensions: 215x 80x 80 cm (L x W x H
+                    Fabric: Velvet fabric with foam and fiber cushions, solid wood legs
+                    This beautiful Sofa is a very elegant piece of furniture. With its majestic design, this high quality chesterfield sofa will be a real eye-catcher in your living room or bedroom.
+                    Durable Design: A naturally strong frame is wrapped in supportive foam padding and durable fabric, it has a maximum weight capacity of 498.2 lbs; the cushions are secured to the frame and are not removable.`
                 },
+                {
+                  id:32,
+                    Title:"BRIGHT FURNITURE Single Seater Alloy Steel Swing Chair.",
+                    Price:9499,
+                    url:"https://m.media-amazon.com/images/I/71jwqyCUNML._SX425_.jpg",
+                    Category:"swing",
+                    Description:`HANDWOVEN and HANDCRAFTED WICKER: Add a playful look to your patio with this outdoor indoor ceiling hanging swing chair for adults. Deck up your balcony with this all-weather synthetic wicker with a powder-coated iron frame. The heavy-duty antique bronze finish swing can hold upto 110-130 kg in weight. Your garden or living room will look stunning with this swing chair. Enjoy the outdoors with this easy to manage patio decor in any weather.
+                    COMFORTABLE HAMMOCK CHAIR: This stylish hammock with cushion is comfortable and durable. It does not lose the cotton thread, allowing the user to enjoy the soft sponge comfort, and it is large enough to have enough space to relax and stretch. Handmade bohemian style hammock swing with macrame net chair pattern and tassels, adding a unique touch to your place.`
+                  },
+                  {
+                    id:33,
+                      Title:"Crystal India Premium Hanging Chair Jhoola Bamboo Jhula.",
+                      Price:3599,
+                      url:"https://m.media-amazon.com/images/I/515MQfsNbBL.jpg",
+                      Category:"swing",
+                      Description:`Manufacturer - Kane Woods
+                      Assemb Required: With the hole in your ceiling, insert the iron hook and hang the Hammock chair.
+                      Material: Bamboo Cane (Bait).
+                      Product Dimensions: Length 25 inches, Width 20 inches, Height 34 inches & Chain Length 1 Meter.
+                      Suitable for All Ages: Whether you're a child or an adult, the Cane Swing Chair offers a delightful and enjoyable experience for people of all ages. Its a perfect spot to relax, read a book, or simply unwind with your loved ones.`
+                    },
+                    {
+                      id:34,
+                        Title:"Star Swing Chair Without Stand & Cushion & Hook Outdoor/Indoor.",
+                        Price:9799,
+                        url:"https://m.media-amazon.com/images/I/411b9MO+4WL._SX425_.jpg",
+                        Category:"swing",
+                        Description:`MATERIAL - Furniture Outdoor/Indoor/Balcony/Garden/Patio/Hanging Swing Chair of Rattan & Wicker with Stand.
+                        HIGH QUALITY - Hanging basket Swing Chair adds a fun lounge vibe to your Outdoor space. Constructed with durable black-brown faux Ratan Wicker and a sturdy iron frame, it?s easy to care for and built to last.
+                        PREMIUM CUSHION - It comes with a Soft deep fluffy cushion, perfect for you to snuggle in on a warm and sunny day, with a book and a cold coffee.`
+                      },
+                      {
+                        id:35,
+                          Title:"Hari Om Furniture Store Single Seater Swing Chair with Stand .",
+                          Price:11499,
+                          url:"https://m.media-amazon.com/images/I/51N-Q9bfMLL._SY300_SX300_QL70_FMwebp_.jpg",
+                          Category:"swing",
+                          Description:`HANDWOVEN and HANDCRAFTED WICKER: Add a playful look to your patio with this outdoor indoor ceiling hanging swing chair for adults. Deck up your balcony with this all-weather synthetic wicker with a powder-coated iron frame. The heavy-duty antique bronze finish swing can hold upto 110-130 kg in weight. Your garden or living room will look stunning with this swing chair. Enjoy the outdoors with this easy to manage patio decor in any weather.`
+                        }
 ];
 export default All_product_data;
