@@ -198,7 +198,7 @@ id:23,
   Title:"Mushy Premium Fabric Sofa Set.",
   Price:17499,
   url:"https://m.media-amazon.com/images/I/81ZNPk9ZJIL._SL1500_.jpg",
-  Category:"painting",
+  Category:"sofa",
   Description:`PRODUCT DIMENSIONS: Length 79 inches (201 cms), Depth 30 inches (76 cms), Height 30 inches (76 cms); SEATING HEIGHT: 18 inches (46 cms) | 3 Years Warranty By Manufacturer
   PRODUCT ATTRIBUTES: Frame Material: Solid Wood | Color: Berry Blue | Style: Contemporary | Upholstery Material: 230 GSM Polyester Fabric | Product Weight: 37.6 Kgs | Comfort Level: Medium Firm
   SEATING CAPACITY: 3 Seater | WARRANTY: 1 Year Manufacturing Warranty | ASSEMBLY: Required, Provided by Brand
