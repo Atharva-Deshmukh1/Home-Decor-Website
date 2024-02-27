@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import LivingRoom from "../LivngRoom/LivingRoom";
 import InteriorIdeas from "../InteriorIdeas/InteriorIdeas";
 import Products from "../Products/Products";
 import Box from "../Box/Box";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
 export default function Home() {
+    useEffect(()=>{
+        AOS.init({duration:"1500"});
+    }, []);
+
     return (
         <div className="dark:bg-gray-800">
             <div
@@ -14,7 +21,7 @@ export default function Home() {
 
             </div>
                 <div class=" w-full flex items-center justify-center font-bold">
-                    <span class=" relative top-[-300px] md:top-[-350px] bg-gradient-to-t from-white via-white to-transparent text-transparent bg-clip-text blur-[0px] text-5xl sm:text-7xl md:text-8xl lg:text-9xl">
+                    <span data-aos="zoom-in" class=" relative top-[-300px] md:top-[-350px] bg-gradient-to-t from-white via-white to-transparent text-transparent bg-clip-text blur-[0px] text-5xl sm:text-7xl md:text-8xl lg:text-9xl">
                         EleGance-Hub
                     </span>
                         

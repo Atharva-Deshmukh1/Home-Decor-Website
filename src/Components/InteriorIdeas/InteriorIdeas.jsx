@@ -1,16 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 const InteriorIdeas = () => {
+
+    useEffect(()=>{
+        AOS.init({duration:"1500" });
+    }, []);
+
   return (
     <>
-    <div className="flex items-center gap-12 dark:bg-gray-800 p-2 md:p-10">
+    <div className="flex items-center gap-12 dark:bg-gray-800 p-2 md:p-10" data-aos="fade-right">
                             <h2 className="text-2xl pl-8 pb-4 font-bold text-gray-800 lg:text-3xl dark:text-white">Gallery</h2>
 
                             <p className="hidden ml-4 max-w-screen-sm text-gray-500 dark:text-gray-300 md:block">
                                 These are some of the modern ideas/designs for your rooms.
                             </p>
                         </div>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-10 dark:bg-gray-800 mt-[-50px]">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-10 dark:bg-gray-800 mt-[-50px]" data-aos="fade-right">
                 <div className="grid gap-4 ">
                     <div className="overflow-hidden">
                         <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2q8rNsv6OiT3VBE34WTc6yXFkk625GBF4tg&usqp=CAU">

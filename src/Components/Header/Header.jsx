@@ -1,10 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
+
+    useEffect(()=>{
+        AOS.init({duration:"1500", delay:"200" });
+    }, []);
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
@@ -12,7 +18,7 @@ export default function Header() {
 
     return (
         <>
-            <header className="shadow sticky z-50 top-0">
+            <header className="shadow sticky z-50 top-0" data-aos="fade-down">
                 <div>
                 <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5">
                     

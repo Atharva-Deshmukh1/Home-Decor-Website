@@ -1,9 +1,14 @@
-import React from 'react'
-
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 const LivingRoom = () => {
+    
+    useEffect(()=>{
+        AOS.init({duration:"1500", delay:"200" });
+    }, []);
   return (
     <>
-      <div className="bg-white dark:bg-gray-800 p-10 h-full mt-[-50px] md:mt-[-100px] sm:py-8 lg:py-12">
+      <div  className="bg-white dark:bg-gray-800 p-10 h-full mt-[-50px] md:mt-[-100px] sm:py-8 lg:py-12" data-aos="fade-right" >
                 <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
                     <div className="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12">
                         <div className="flex items-center gap-12">
