@@ -6,9 +6,9 @@ export default function Item(props) {
     <>
 
       <div>
-        <div className="w-64 h-[400px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 " >
+        <div className="w-[8rem] sm:w-64 h-[300px] sm:h-[400px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 " >
           <Link to={`/ProductPage/${props.id}`}>
-            <img className="rounded-t-lg h-[70%] w-full object-cover" src={props.url} alt="" />
+            <img className="rounded-t-lg h-[60%] sm:h-[70%] w-full object-cover" src={props.url} alt="" />
             
           <div className="p-5">
             

@@ -12,7 +12,7 @@ const ProductDetails = (props) => {
     };
 
     return (
-        <div className=" w-full p-10 bg-amber-50">
+        <div onClick={window.scrollTo(0,0)} className=" w-full p-10 bg-amber-50">
             <div className="flex flex-col md:flex-row">
                 <div className="w-full md:w-1/2">
                     <img

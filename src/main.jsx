@@ -23,9 +23,9 @@ const router = createBrowserRouter(
     <Route path='/' element={<Layout/>}>
       
       <Route path='/Home-Decor-Website' element={<Home />} />
-      <Route path='about' element={<AboutUS />} />
-      <Route path='productPage' element={<ProductPage />} />
-      <Route path='contact' element={<Contact />} />
+      <Route path='Home-Decor-Website/about' element={<AboutUS />} />
+      <Route path='Home-Decor-Website/productPage' element={<ProductPage />} />
+      <Route path='Home-Decor-Website/contact' element={<Contact />} />
       <Route path='products' element={<Products />} />
       <Route path='Lamps' element={<Lamps />} />
       <Route path='GreenPots' element={<GreenPots />} />
@@ -34,7 +34,7 @@ const router = createBrowserRouter(
       <Route path='/product' element={<Product />} >
         <Route path=':productId' element={<Product />} />
       </Route>
-      <Route path='cart' element={<Cart />} />
+      <Route path='Home-Decor-Website/cart' element={<Cart />} />
       <Route path='cartitem' element={<CartItems />} />
     </Route>
   )

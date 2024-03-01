@@ -69,19 +69,19 @@ export default function Header() {
                                 Home
                             </NavLink>
                             <NavLink
-                                to="/productPage"
+                                to="Home-Decor-Website/productPage"
                                 className="text-gray-700 hover:text-orange-700 px-3 py-2 font-medium"
                             >
                                 Products
                             </NavLink>
                             <NavLink
-                                to="/about"
+                                to="Home-Decor-Website/about"
                                 className="text-gray-700 hover:text-orange-700 px-3 py-2 font-medium"
                             >
                                 About
                             </NavLink>
                             <NavLink
-                                to="/contact"
+                                to="Home-Decor-Website/contact"
                                 className="text-gray-700 hover:text-orange-700 px-3 py-2 font-medium"
                             >
                                 Contact Us
@@ -96,7 +96,7 @@ export default function Header() {
                                 Log in
                             </Link>
                             <Link
-                                to="cart"
+                                to="Home-Decor-Website/cart"
                                 className="text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
                             >
                                 <FontAwesomeIcon icon={faCartShopping} />

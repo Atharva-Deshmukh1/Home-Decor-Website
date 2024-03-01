@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
     return (
-        <div className="relative mt-4 flex items-top justify-center min-h-[700px] bg-amber-50 sm:items-center sm:pt-0">
+        <div onClick={window.scrollTo(0,0)} className="relative flex items-top justify-center min-h-[700px] bg-amber-50 sm:items-center sm:pt-0">
             <div className="max-w-6xl mx-auto sm:px-6 lg:px-8  ">
                 <div className="sm:mt-[-100px] overflow-hidden ">
                     <div className="grid grid-cols-1 md:grid-cols-2 border-2 border-black p-2 rounded-lg">

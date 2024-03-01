@@ -5,11 +5,11 @@ import InteriorIdeas from "../InteriorIdeas/InteriorIdeas";
 import Products from "../Products/Products";
 import Box from "../Box/Box";
 import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import 'aos/dist/aos.css';
 
 export default function Home() {
-    useEffect(()=>{
-        AOS.init({duration:"1500"});
+    useEffect(() => {
+        AOS.init({ duration: "1500" });
     }, []);
 
     return (
@@ -17,16 +17,26 @@ export default function Home() {
             <div
                 className="bg-center bg-cover bg-no-repeat p-12 h-[500px] brightness-[0.6] blur-[2px]"
                 style={{ backgroundImage: `url('https://www.build-review.com/wp-content/uploads/2022/12/AdobeStock_521077579.jpg')` }}>
-                    
+
 
             </div>
-                <div class=" w-full flex items-center justify-center font-bold">
-                    <span data-aos="zoom-in" class=" relative top-[-300px] md:top-[-350px] bg-gradient-to-t from-white via-white to-transparent text-transparent bg-clip-text blur-[0px] text-5xl sm:text-7xl md:text-8xl lg:text-9xl">
+            <div className=" w-full flex flex-col items-center justify-center font-bold">
+                <div className="w-full flex flex-col items-center justify-center font-bold">
+                    <span data-aos="zoom-in" className=" relative top-[-300px] md:top-[-350px] bg-gradient-to-t from-white via-white to-transparent text-transparent bg-clip-text blur-[0px] text-5xl sm:text-7xl md:text-8xl lg:text-9xl">
                         EleGance-Hub
                     </span>
-                        
+                    <div className=" w-full flex flex-col items-center justify-center ">
+                        <h2 data-aos="zoom-in" className=" px-[5vw] pt-4 mb-4 relative top-[-300px] md:top-[-350px] text-[8px] sm:text-sm text-white  ">Transform your home with inspiration and products, all in one place.</h2>
+
+
+                        <Link to="/productPage" data-aos="zoom-in" class=" font-semibold relative w-[7rem] sm:w-[10rem] sm:text-[2.5vw] text-[2.5vw]  md:text-[1.8vw]  lg:text-[1.5vw] top-[-300px] md:top-[-350px] inline-flex items-center justify-center px-2    text-white bg-green-500 rounded-md hover:bg-green-400  sm:mb-0" data-primary="green-400" data-rounded="rounded-2xl" data-primary-reset="{}">
+                            Go To Shop
+                            <svg class="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </Link>
+                    </div>
                 </div>
-                
+            </div>
+
 
 
             {/* <div>
