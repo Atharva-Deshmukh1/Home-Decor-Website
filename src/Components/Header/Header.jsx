@@ -122,7 +122,7 @@ export default function Header() {
                     <li>
                         <NavLink
                             onClick={toggleMenu}
-                            to="/productPage"
+                            to="/Home-Decor-Website/productPage"
                             className="block py-2 pr-4 pl-3 duration-200 border-b text-gray-700 border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0"
                         >
                             Products
@@ -131,7 +131,7 @@ export default function Header() {
                     <li>
                         <NavLink
                             onClick={toggleMenu}
-                            to="/about"
+                            to="/Home-Decor-Website/about"
                             className="block py-2 pr-4 pl-3 duration-200 border-b text-gray-700 border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0"
                         >
                             About
@@ -140,7 +140,7 @@ export default function Header() {
                     <li>
                         <NavLink
                             onClick={toggleMenu}
-                            to="/contact"
+                            to="/Home-Decor-Website/contact"
                             className="block py-2 pr-4 pl-3 duration-200 border-b text-gray-700 border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0"
                         >
                             Contact Us

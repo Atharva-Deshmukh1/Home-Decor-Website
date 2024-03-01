@@ -29,7 +29,7 @@ export default function Home() {
                         <h2 data-aos="zoom-in" className=" px-[5vw] pt-4 mb-4 relative top-[-300px] md:top-[-350px] text-[8px] sm:text-sm text-white  ">Transform your home with inspiration and products, all in one place.</h2>
 
 
-                        <Link to="/productPage" data-aos="zoom-in" class=" font-semibold relative w-[7rem] sm:w-[10rem] sm:text-[2.5vw] text-[2.5vw]  md:text-[1.8vw]  lg:text-[1.5vw] top-[-300px] md:top-[-350px] inline-flex items-center justify-center px-2    text-white bg-green-500 rounded-md hover:bg-green-400  sm:mb-0" data-primary="green-400" data-rounded="rounded-2xl" data-primary-reset="{}">
+                        <Link to="/Home-Decor-Website/productPage" data-aos="zoom-in" class=" font-semibold relative w-[7rem] sm:w-[10rem] sm:text-[2.5vw] text-[2.5vw]  md:text-[1.8vw]  lg:text-[1.5vw] top-[-300px] md:top-[-350px] inline-flex items-center justify-center px-2    text-white bg-green-500 rounded-md hover:bg-green-400  sm:mb-0" data-primary="green-400" data-rounded="rounded-2xl" data-primary-reset="{}">
                             Go To Shop
                             <svg class="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                         </Link>
