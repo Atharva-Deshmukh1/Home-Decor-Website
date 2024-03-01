@@ -24,19 +24,19 @@ export default function Footer() {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/productPage" className={({isActive}) =>
+                                    <Link to="/Home-Decor-Website/productPage" className={({isActive}) =>
                                 ` ${isActive ? "text-orange-700":"text-gray-700" }`}>
                                         Products
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/about" className={({isActive}) =>
+                                    <Link to="/Home-Decor-Website/about" className={({isActive}) =>
                                 ` ${isActive ? "text-orange-700":"text-gray-700" }`}>
                                         About
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/contact" className={({isActive}) =>
+                                    <Link to="/Home-Decor-Website/contact" className={({isActive}) =>
                                 ` ${isActive ? "text-orange-700":"text-gray-700" }`}>
                                         Contact
                                     </Link>
